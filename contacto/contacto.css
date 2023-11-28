@@ -1,0 +1,19 @@
+main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    background-color: #ADD092;
+    border: none;
+    padding: 0.5vw;
+    margin: 0.5vw auto;
+    width: 100%;
+}
