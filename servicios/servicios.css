@@ -1,0 +1,32 @@
+main {
+    width: 90%;
+    margin: auto;
+}
+
+article {
+    display: flex;
+    padding: 1vw 1vw; 
+    align-items: center;
+    
+}
+
+.rightArticle {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ADD092;
+}
+
+img {
+    width: 20vw;
+    margin-right: 2vw;
+    border-radius: 5%;
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p {
+    margin-right: 2vw;
+    text-align: justify;
+}
