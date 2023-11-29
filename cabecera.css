@@ -19,3 +19,11 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+@font-face {
+  font-family: "Flowrise";
+  src: url('font/FLOWRISE.woff');
+}
+h1 {
+  font-family: "Flowrise";
+  font-size: xx-large ;
+}
