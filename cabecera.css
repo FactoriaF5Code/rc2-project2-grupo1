@@ -21,9 +21,14 @@ ul {
 }
 @font-face {
   font-family: "Flowrise";
-  src: url('font/FLOWRISE.woff');
+  src: url("font/FLOWRISE.woff");
 }
 h1 {
+  color: #d42e2d;
   font-family: "Flowrise";
-  font-size: xx-large ;
+  font-size: xx-large;
+}
+a {
+  text-decoration: none;
+  color: black;
 }
