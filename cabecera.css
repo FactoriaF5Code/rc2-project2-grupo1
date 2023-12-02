@@ -1,0 +1,43 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
+  width: 90%;
+  align-items: center;
+}
+header {
+  background-color: #add092;
+  height: 8%;
+}
+body {
+  margin: 0;
+}
+ul {
+  width: 300px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: "Flowrise";
+  src: url("font/FLOWRISE.woff");
+}
+h1 {
+  color: #d42e2d;
+  font-family: "Flowrise";
+  font-size: xx-large;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1:hover{
+  animation: tiembla 0.1s infinite;
+}
+@keyframes tiembla{
+  0%  { -webkit-transform:rotateZ(-5deg); }
+  50% { -webkit-transform:rotateZ( 0deg) scale(.8); }
+  100%{ -webkit-transform:rotateZ( 5deg); }
+}
